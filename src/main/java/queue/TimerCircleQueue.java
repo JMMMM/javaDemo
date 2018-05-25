@@ -7,6 +7,13 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * 环形队列
+ * AtomicInteger会出现过大溢出的可能性，不能持续运行
+ * 于是当currentIndex到达边界的时候 重设currentIndex的值
+ *
+ * @param <E>
+ */
 public class TimerCircleQueue<E> {
     transient int size = 0;
 
@@ -40,10 +47,12 @@ public class TimerCircleQueue<E> {
             @Override
             public void run() {
                 System.out.println("前进一格");
-                int nowIndex = currentIndex.incrementAndGet() % size;
-                nowSlot = elements.remove(nowIndex);
+                int _curr = currentIndex.incrementAndGet();
+                if (_curr == size) currentIndex.set(0);
+                int currIndex = _curr % size;
+                nowSlot = elements.remove(currIndex);
                 slot = new Slot<>();
-                elements.put(nowIndex, slot);
+                elements.put(currIndex, slot);
             }
         }, tick);
     }
