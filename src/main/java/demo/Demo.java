@@ -38,7 +38,7 @@ public class Demo {
     static class OddNum implements Runnable {
         @Override
         public void run() {
-            for (int i = 1; i <= 100; i += 2) {
+            for (int i = 1; i <= 99; i += 2) {
                 synchronized (lock) {
                     try {
                         lock.wait();
@@ -72,6 +72,7 @@ public class Demo {
 
     public static void main(String[] args) {
         new Thread(new OddNum()).start();
+
         new Thread(new EvenNum()).start();
     }
 }
