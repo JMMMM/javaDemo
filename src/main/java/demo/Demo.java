@@ -1,6 +1,7 @@
 package demo;
 
 import com.github.dapeng.core.SoaException;
+import com.isuwang.soa.admin.StaffServiceClient;
 import com.isuwang.soa.company.ComponentOnBinlogServiceClient;
 import com.isuwang.soa.crm.company.enums.CrmCompanyType;
 import com.mysql.jdbc.Connection;
@@ -26,33 +27,47 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
 public class Demo {
-    public static void main(String[] args) throws IllegalAccessException, IOException, NoSuchFieldException {
-        //Unsafe unsafe = Unsafe.getUnsafe();
-        Field f = Unsafe.class.getDeclaredField("theUnsafe"); //Internal reference
-        f.setAccessible(true);
-        Unsafe unsafe = (Unsafe) f.get(null);
 
-        File file = new File("shm.data");
+    private static Object lock = new Object();
 
-        RandomAccessFile access = new RandomAccessFile(file, "rw");
+    //奇数
+    static class OddNum implements Runnable {
+        @Override
+        public void run() {
+            for (int i = 1; i <= 100; i += 2) {
+                synchronized (lock) {
+                    try {
+                        lock.wait();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println(i);
+                    lock.notify();
+                }
+            }
+        }
+    }
 
-        MappedByteBuffer buffer = access.getChannel().map(FileChannel.MapMode.READ_WRITE, 0, 1024);
+    //偶数
+    static class EvenNum implements Runnable {
+        @Override
+        public void run() {
+            for (int i = 0; i <= 100; i += 2) {
+                synchronized (lock) {
+                    System.out.println(i);
+                    lock.notify();
+                    try {
+                        lock.wait();
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }
+    }
 
-        Field address = Buffer.class.getDeclaredField("address");
-        address.setAccessible(true);
-
-        long addr = (Long) address.get(buffer);
-
-        buffer.putInt(0x31_32_33_34);
-
-        System.out.println("buffer = " + buffer + " addr = " + addr);
-
-        int it = unsafe.getInt(addr);
-        System.out.println("it = " + it); // 0x34333231
-
-        boolean set = unsafe.compareAndSwapInt(null, addr, 0x34333231, 0x35363738);
-
-        System.out.println("set = " + set);
-        System.out.println("it = " + unsafe.getInt(addr)); // 0x35363738
+    public static void main(String[] args) {
+        new Thread(new OddNum()).start();
+        new Thread(new EvenNum()).start();
     }
 }
