@@ -26,6 +26,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
+/**
+ * 这个代码并不能达到奇偶数轮流输出的效果
+ * 仔细阅读代码还是会有可能出现死锁的情况，这种方式时错误的
+ */
 public class Demo {
 
     private static Object lock = new Object();
