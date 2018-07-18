@@ -5,13 +5,15 @@ import java.util.Vector;
 import java.util.concurrent.CountDownLatch;
 
 class ThreadPrintDemo3Test {
-     int num = 0;
+    volatile int num = 0;
     volatile boolean flag = false;
 
     public static void main(String[] args) throws Exception {
+        long start = System.currentTimeMillis();
         for (long i = 0; i < 10000; i++) {
             new ThreadPrintDemo3Test().job();
         }
+        System.out.println(System.currentTimeMillis() - start);
     }
 
     private void job() throws Exception {
