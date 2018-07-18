@@ -8,14 +8,15 @@ class ThreadPrintDemo3 {
     volatile int num = 0;
     boolean flag = false;
 
-    public static void main(String[] args) throws InterruptedException {
-        for (int i = 0; i < 10000; i++) {
+    public static void main(String[] args) throws Exception {
+        for (int i = 0; i < 1000000; i++) {
             new ThreadPrintDemo3().job();
         }
     }
 
-    private void job() throws InterruptedException {
-
+    private void job() throws Exception {
+        System.out.println(num);
+        System.out.println(flag);
         final List<Integer> result = new Vector<>();
 
         final CountDownLatch latch = new CountDownLatch(2);
@@ -46,8 +47,9 @@ class ThreadPrintDemo3 {
 
         latch.await();
         for (int i = 0; i <= 100; i++) {
-            assert result.get(0) == i;
+            if (result.get(i) != i) {
+                throw new Exception();
+            }
         }
-        System.out.println("====================done!");
     }
 }
