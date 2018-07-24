@@ -11,18 +11,22 @@ import java.util.UUID;
 
 public final class RedisLockHelper {
     private static Logger logger = LoggerFactory.getLogger(RedisLockHelper.class);
-    private final JedisPool jedisPool = new JedisPool("192.168.99.100");
+    private final JedisPool jedisPool = new JedisPool("192.168.4.224");
 
-    public String lockWithTimeout(String localName, long acquireTimeout, long timeout) {
+    public String lockWithTimeout(String lockName, long acquireTimeout, long timeout) {
         Jedis conn = jedisPool.getResource();
         String retIdentifier = null;
         String identifier = UUID.randomUUID().toString();
-        String lockKey = "lock:" + localName;
+        String lockKey = "lock:" + lockName;
         int lockExpire = (int) (timeout / 1000);
         long end = System.currentTimeMillis() + acquireTimeout;
+        conn.flushAll();
         while (System.currentTimeMillis() < end) {
-            if (conn.setnx(lockKey, identifier) == 1) {
-                conn.expire(lockKey, lockExpire);
+            System.out.println(conn.eval("return KEYS[1]",3,lockKey,identifier,lockExpire+""));
+            System.out.println(conn.eval("return KEYS[2]",3,lockKey,identifier,lockExpire+""));
+            System.out.println(conn.eval("return KEYS[3]",3,lockKey,identifier,lockExpire+""));
+            Object obj = conn.eval("local exists = redis.call('setnx',KEYS[1],KEYS[2]);redis.call('expire',KEYS[1],KEYS[3]);return exists",3,lockKey,identifier,lockExpire+"");
+            if (1 == (long)obj) {
                 retIdentifier = identifier;
                 return retIdentifier;
             }
@@ -52,5 +56,10 @@ public final class RedisLockHelper {
             break;
         }
         return retFlag;
+    }
+
+    public static void main(String[] args) {
+        String lock = new RedisLockHelper().lockWithTimeout("locklock",10*1000,10*1000);
+        System.out.println(lock);
     }
 }
