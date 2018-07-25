@@ -21,11 +21,11 @@ public class ZookeeperLockUtils {
 
     private byte[] bytes = new byte[0];
 
-    private String lockString ;
+    private String lockString;
 
     public ZookeeperLockUtils() {
         try {
-            zooKeeper = new ZooKeeper("192.168.4.224:2181", 3000, (WatchedEvent event) -> {
+            zooKeeper = new ZooKeeper("192.168.4.224:2181", 10000, (WatchedEvent event) -> {
                 if (event.getState() == Watcher.Event.KeeperState.SyncConnected) countDownLatch.countDown();
                 ;
             });
@@ -43,9 +43,10 @@ public class ZookeeperLockUtils {
         }
     }
 
-    public void lock(String lockName) {
+    public String lock(String lockName) {
         try {
-            String actualPath = zooKeeper.create(root + "/" + lockName, bytes, ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+            this.lockName = lockName;
+            String actualPath = zooKeeper.create(root + "/" + lockName, bytes, ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL_SEQUENTIAL);
             List<String> children = zooKeeper.getChildren(root, false);
             TreeSet<String> treeSet = new TreeSet<>();
             for (String subPath : children) {
@@ -56,7 +57,7 @@ public class ZookeeperLockUtils {
             lockString = smallNode;
             if (actualPath.equals(smallNode)) {
                 nodeId.set(actualPath);
-                return;
+                return actualPath;
             }
             CountDownLatch latch = new CountDownLatch(1);
             Stat stat = zooKeeper.exists(preNode, event -> {
@@ -68,17 +69,19 @@ public class ZookeeperLockUtils {
                 latch.await();
                 nodeId.set(actualPath);
             }
+            return actualPath;
         } catch (KeeperException e) {
             e.printStackTrace();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        return "";
     }
 
     public void unlock() {
         if (null != nodeId) {
             try {
-                zooKeeper.delete(lockName,-1);
+                zooKeeper.delete(lockName, -1);
                 nodeId.remove();
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -86,5 +89,11 @@ public class ZookeeperLockUtils {
                 e.printStackTrace();
             }
         }
+    }
+
+    public static void main(String[] args) {
+        new ZookeeperLockUtils().lock("lock");
+        new ZookeeperLockUtils().lock("lock");
+        System.out.println("结束");
     }
 }
