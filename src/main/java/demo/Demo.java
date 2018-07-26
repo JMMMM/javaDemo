@@ -48,5 +48,8 @@ public class Demo {
         new Thread(new OddNum()).start();
 
         new Thread(new EvenNum()).start();
+
+        System.out.println(  Integer.toBinaryString(9));
+        System.out.println(9>>1);
     }
 }
