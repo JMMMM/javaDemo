@@ -52,4 +52,5 @@ public class Demo {
         System.out.println(  Integer.toBinaryString(9));
         System.out.println(9>>1);
     }
+
 }
