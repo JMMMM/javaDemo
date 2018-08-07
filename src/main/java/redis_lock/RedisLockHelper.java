@@ -20,7 +20,6 @@ public final class RedisLockHelper {
         String lockKey = "lock:" + lockName;
         int lockExpire = (int) (timeout / 1000);
         long end = System.currentTimeMillis() + acquireTimeout;
-        conn.flushAll();
         while (System.currentTimeMillis() < end) {
             System.out.println(conn.eval("return KEYS[1]",3,lockKey,identifier,lockExpire+""));
             System.out.println(conn.eval("return KEYS[2]",3,lockKey,identifier,lockExpire+""));
