@@ -21,9 +21,6 @@ public final class RedisLockHelper {
         int lockExpire = (int) (timeout / 1000);
         long end = System.currentTimeMillis() + acquireTimeout;
         while (System.currentTimeMillis() < end) {
-            System.out.println(conn.eval("return KEYS[1]",3,lockKey,identifier,lockExpire+""));
-            System.out.println(conn.eval("return KEYS[2]",3,lockKey,identifier,lockExpire+""));
-            System.out.println(conn.eval("return KEYS[3]",3,lockKey,identifier,lockExpire+""));
             Object obj = conn.eval("local exists = redis.call('setnx',KEYS[1],KEYS[2]);redis.call('expire',KEYS[1],KEYS[3]);return exists",3,lockKey,identifier,lockExpire+"");
             if (1 == (long)obj) {
                 retIdentifier = identifier;
