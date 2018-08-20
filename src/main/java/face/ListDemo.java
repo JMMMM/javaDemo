@@ -10,10 +10,7 @@ public class ListDemo {
         for (int i = 0; i < 100; i++) {
             temp.add(i);
         }
-        temp.listIterator().add(2);
-        Iterator iterator = temp.listIterator();
-        iterator.next();
-        iterator.remove();
+        temp.forEach((a)-> System.out.println(a));
         System.out.println(temp.size());
     }
 }
