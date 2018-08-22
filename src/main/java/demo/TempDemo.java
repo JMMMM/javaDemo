@@ -29,7 +29,7 @@ public class TempDemo {
         HSSFWorkbook workbook = new HSSFWorkbook(new FileInputStream(path));
         HSSFSheet sheet = workbook.getSheet("总表");
         MysqlConnectionPoolDataSource pool = getDataSource();
-        PreparedStatement ps = pool.getPooledConnection().getConnection().prepareStatement("select code from sys_areas where name = ?");
+        PreparedStatement ps = pool.getPooledConnection().getConnection().prepareStatement("select code from sys_area where name = ?");
         List<Warehouse> warehouses = new ArrayList<>(2000);
         for (int i = 1; i < 2000; i++) {
             warehouses.add(loadObj(sheet.getRow(i), ps));
@@ -48,13 +48,12 @@ public class TempDemo {
         String qu = row.getCell(6).getStringCellValue();
         String jiedao = row.getCell(7).getStringCellValue();
         String[] temp = {jiedao, qu, shi, sheng};
-        String rs = Arrays.asList(temp).stream().filter((str)->StringUtils.isNullOrEmpty(str))
-        ps.setString(1, StringUtils.isNullOrEmpty(jiedao) ? qu : jiedao);
+        ps.setString(1, Arrays.asList(temp).stream().filter((str) -> !StringUtils.isNullOrEmpty(str)).findFirst().get());
         ResultSet rs = ps.executeQuery();
         rs.next();
         warehouse.areaCode = rs.getString(1);
-        warehouse.address = row.getCell(2).getStringCellValue();
-        String disable = row.getCell(2).getStringCellValue();
+        warehouse.address = row.getCell(8).getStringCellValue();
+        String disable = row.getCell(9).getStringCellValue();
         warehouse.disable = "启用" == disable ? 0 : 1;
         return warehouse;
     }
