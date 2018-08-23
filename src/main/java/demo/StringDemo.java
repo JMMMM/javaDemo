@@ -1,6 +1,6 @@
 package demo;
 
-public class StringDEo {
+public class StringDemo {
 
     private static String add(String ex){
         ex = ex+ "World";
