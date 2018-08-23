@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ThreadPoolExecuteDemo {
     public static void main(String[] args) {
-        ThreadPoolExecutor threadPoolExecute = new ThreadPoolExecutor(2, 3, 30, TimeUnit.SECONDS, new ArrayBlockingQueue(100));
+        ThreadPoolExecutor threadPoolExecute = new ThreadPoolExecutor(2, 3, 30, TimeUnit.SECONDS, new ArrayBlockingQueue(1));
         threadPoolExecute.execute(() -> {
             while (true) {
                 System.out.println("hello");
@@ -17,7 +17,7 @@ public class ThreadPoolExecuteDemo {
                 System.out.println("hello2222222");
             }
         });
-        threadPoolExecute.shutdown();
+//        threadPoolExecute.shutdown();
         threadPoolExecute.execute(() -> {
             while (true) {
                 System.out.println("hello3333333");
