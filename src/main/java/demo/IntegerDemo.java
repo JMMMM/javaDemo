@@ -13,7 +13,7 @@ public class IntegerDemo {
         Integer d = 100;
         Integer e = 100;
         System.out.println(d==e);
-
+        Integer.toBinaryString(100);
 
     }
 }
