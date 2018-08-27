@@ -12,7 +12,7 @@ class ThreadPrintDemo3 {
                 if (!flag && (num == 0 || ++num % 2 == 0)) {
 
                     try {
-                        Thread.sleep(100);// 防止打印速度过快导致混乱
+                        Thread.sleep(10);// 防止打印速度过快导致混乱
                     } catch (InterruptedException e) {
                         //NO
                     }
@@ -29,7 +29,7 @@ class ThreadPrintDemo3 {
                 if (flag && (++num % 2 != 0)) {
 
                     try {
-                        Thread.sleep(100);// 防止打印速度过快导致混乱
+                        Thread.sleep(10);// 防止打印速度过快导致混乱
                     } catch (InterruptedException e) {
                         //NO
                     }
