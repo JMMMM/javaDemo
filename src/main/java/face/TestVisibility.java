@@ -3,6 +3,11 @@ package face;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 当flag不是volatile 时，会出现对flag变量不可见的情况
+ * 程序多运行几次，会出现 set flag true 但没有其他任何输出的情况
+ * 需要运行多次
+ */
 public class TestVisibility {
     public static boolean flag = false;
 

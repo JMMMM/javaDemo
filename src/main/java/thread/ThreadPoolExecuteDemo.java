@@ -1,4 +1,4 @@
-package demo;
+package thread;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;

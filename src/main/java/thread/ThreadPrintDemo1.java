@@ -1,4 +1,4 @@
-package demo;
+package thread;
 
 
 class ThreadPrintDemo1 {

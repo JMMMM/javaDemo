@@ -1,4 +1,4 @@
-package demo;
+package thread;
 
 import java.util.List;
 import java.util.Vector;

@@ -1,4 +1,4 @@
-package demo;
+package thread;
 
 public class ThreadPriceDemo1Test {
     public static void main(String[] args) throws Exception {
