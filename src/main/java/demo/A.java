@@ -10,12 +10,15 @@ public class A {
     public String test() {
         return this.name;
     }
-
+    public String classOf(){
+        return this.getClass().getSimpleName();
+    }
     public static void main(String[] args) {
         A a = new A("a");
         System.out.println(a.test());
         A b = new B("b");
         System.out.println(b.test());
+        System.out.println(b.classOf());
     }
 }
 
