@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3886deb0-3968-4165-9e25-d092cef2b53b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/KafkaProducerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/producer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/KafkaProducterDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/KafkaProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kafka/KafkaProducerDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +17,8 @@
       <file leaf-file-name="KafkaProducerDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/kafka/KafkaProducerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="38" column="94" selection-start-line="38" selection-start-column="94" selection-end-line="38" selection-end-column="94" />
+            <state relative-caret-position="124">
+              <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -174,8 +171,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="342" />
-    <option name="y" value="23" />
+    <option name="x" value="212" />
+    <option name="y" value="33" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -274,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JMMStringDemo">
+  <component name="RunManager" selected="Application.KafkaProducerDemo">
     <configuration name="JMMStringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jvm.JMMStringDemo" />
       <module name="javaDemo" />
@@ -287,19 +284,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="OOMDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.OOMDemo" />
+    <configuration name="KafkaProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kafka.KafkaProducerDemo" />
       <module name="javaDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.*" />
+          <option name="PATTERN" value="kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.ProxyDemo" />
+    <configuration name="OOMDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.OOMDemo" />
       <module name="javaDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -431,19 +428,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Application.ProxyDemo" />
       <item itemvalue="Application.ThreadDemo2" />
       <item itemvalue="Application.ReentrantLockDemo" />
       <item itemvalue="Application.OOMDemo" />
       <item itemvalue="Application.JMMStringDemo" />
+      <item itemvalue="Application.KafkaProducerDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KafkaProducerDemo" />
         <item itemvalue="Application.JMMStringDemo" />
         <item itemvalue="Application.OOMDemo" />
         <item itemvalue="Application.ReentrantLockDemo" />
         <item itemvalue="Application.ThreadDemo2" />
-        <item itemvalue="Application.ProxyDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -470,7 +467,7 @@
       <workItem from="1536551187717" duration="4254000" />
       <workItem from="1536655993652" duration="23250000" />
       <workItem from="1536823060904" duration="893000" />
-      <workItem from="1536832226531" duration="1505000" />
+      <workItem from="1536832226531" duration="1542000" />
     </task>
     <task id="LOCAL-00001" summary="12312321">
       <created>1536055987846</created>
@@ -483,40 +480,40 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33389000" />
+    <option name="totallyTimeSpent" value="33426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="342" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32904148" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32904148" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27038628" />
       <window_info anchor="right" id="LuaJ" order="4" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39857143" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32904148" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32904148" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32857144" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.27038628" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32904148" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -622,8 +619,20 @@
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kafka/KafkaProducerDemo.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kafka/KafkaProducerDemo.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1066,8 +1075,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kafka/KafkaProducerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="38" column="94" selection-start-line="38" selection-start-column="94" selection-end-line="38" selection-end-column="94" />
+        <state relative-caret-position="124">
+          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
         </state>
       </provider>
     </entry>

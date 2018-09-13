@@ -25,7 +25,7 @@ public class KafkaProducerDemo {
     public KafkaProducerDemo(String topic, Boolean isAsync) {
         Properties props = new Properties();
         try {
-            props.load(new FileInputStream("producer.properties"));
+            props.load(getClass().getResourceAsStream("producer.properties"));
         } catch (IOException e) {
             e.printStackTrace();
         }
