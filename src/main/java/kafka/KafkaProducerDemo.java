@@ -16,6 +16,9 @@ import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
+/**
+ * Kafka基础生产者代码
+ */
 public class KafkaProducerDemo {
 
     private final String topic;

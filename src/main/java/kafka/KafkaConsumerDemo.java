@@ -9,6 +9,9 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.Properties;
 
+/**
+ * kafka基础消费者代码
+ */
 public class KafkaConsumerDemo {
 
     private final String topic;
