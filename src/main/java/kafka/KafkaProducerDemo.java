@@ -55,6 +55,7 @@ public class KafkaProducerDemo {
 
     public static void main(String[] args) {
         KafkaProducerDemo producerDemo = new KafkaProducerDemo("kafka_study_demo", false);
-        producerDemo.send(1, "message_1");
+        for (int i = 0; i < Integer.MAX_VALUE; i++)
+            producerDemo.send(1, "message_" + i);
     }
 }
