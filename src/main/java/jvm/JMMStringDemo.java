@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 查看String常量池存放在 java heap中
+ * 常量池存放在方法区，存储的是对象引用
+ * 对象实例依然放在堆中
  * -verbose:gc -Xmx1M -XX:+PrintGCDetails -XX:SurvivorRatio=8
  * OOM java heap space
  */
