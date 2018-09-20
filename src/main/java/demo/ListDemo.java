@@ -1,64 +1,29 @@
 package demo;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
- * stream之后filter和foreach会自动组合；
+ * filter和foreach同时进行时，filter和foreach交替执行，只有当filter为true时，才回去执行foreach
+ *
  */
 public class ListDemo {
-    private static int i = 0;
     private static int j = 0;
 
     public static void main(String[] args) {
-        Person example = new Person(5, "name5");
-        List<Person> persons = new ArrayList<>(10);
-        for (int i = 0; i < 20; i++) {
-            Person p = new Person(i, "name" + i);
-            persons.add(p);
-        }
-
-        persons.stream().filter((p) -> p.equals(example)).forEach((p) -> System.out.println(p));
-        System.out.println(i);
-
-
-        List<Integer> ls = new ArrayList<>(20);
-        for (int i = 0; i < 20; i++) {
-            ls.add(i);
-        }
+        List<Integer> ls = Arrays.asList(0, 1, 2, 3, 4);
 
         ls.stream().filter((t) -> j++ == t).forEach((t) -> j++);
+        //6
         System.out.println(j);
+
+        j=0;
+        ls.stream().filter((t)->{j++;return true;}).forEach((t)->j++);
+        //10
+        System.out.println(j);
+
     }
 
-    static class Person {
-        private int age;
-        private String name;
-
-        public Person(int age, String name) {
-            this.age = age;
-            this.name = name;
-        }
-
-        @Override
-        public boolean equals(Object obj) {
-            i++;
-            if (obj instanceof Person) {
-                Person temp = (Person) obj;
-                return temp.age == this.age && temp.name.equals(this.name);
-            }
-            return false;
-        }
-
-        @Override
-        public int hashCode() {
-            return this.age + this.name.hashCode();
-        }
-
-        @Override
-        public String toString() {
-            i++;
-            return "Person age : " + this.age + ",name: " + this.name;
-        }
-    }
 }
