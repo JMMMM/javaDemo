@@ -8,6 +8,7 @@ import java.util.List;
  */
 public class ListDemo {
     private static int i = 0;
+    private static int j = 0;
 
     public static void main(String[] args) {
         Person example = new Person(5, "name5");
@@ -19,6 +20,15 @@ public class ListDemo {
 
         persons.stream().filter((p) -> p.equals(example)).forEach((p) -> System.out.println(p));
         System.out.println(i);
+
+
+        List<Integer> ls = new ArrayList<>(20);
+        for (int i = 0; i < 20; i++) {
+            ls.add(i);
+        }
+
+        ls.stream().filter((t) -> j++ == t).forEach((t) -> j++);
+        System.out.println(j);
     }
 
     static class Person {
