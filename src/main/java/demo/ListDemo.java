@@ -23,7 +23,6 @@ public class ListDemo {
         ls.stream().filter((t)->{j++;return true;}).forEach((t)->j++);
         //10
         System.out.println(j);
-
     }
 
 }
