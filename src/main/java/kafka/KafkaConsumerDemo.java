@@ -1,5 +1,7 @@
 package kafka;
 
+import com.alibaba.otter.canal.protocol.CanalEntry;
+import com.google.protobuf.InvalidProtocolBufferException;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
@@ -15,7 +17,7 @@ import java.util.Properties;
 public class KafkaConsumerDemo {
 
     private final String topic;
-    private final KafkaConsumer<Integer, String> consumer;
+    private final KafkaConsumer<String, byte[]> consumer;
     private final String consumerName;
 
     public KafkaConsumerDemo(String consumerName, String topic) {
@@ -26,25 +28,28 @@ public class KafkaConsumerDemo {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        this.consumer = new KafkaConsumer<Integer, String>(prop);
+        this.consumer = new KafkaConsumer<String, byte[]>(prop);
         this.consumer.subscribe(Collections.singletonList(this.topic));
         this.consumerName = consumerName;
     }
 
     public void consumer() {
         while (true) {
-            ConsumerRecords<Integer, String> records = consumer.poll(1000);
-            System.out.println(consumerName + " 拉取record size:" + records.count());
+            ConsumerRecords<String, byte[]> records = consumer.poll(1000);
             for (ConsumerRecord record : records) {
+                try {
+                    CanalEntry.RowChange temp = CanalEntry.RowChange.parseFrom((byte[])record.value());
+                    temp.toString();
+                } catch (InvalidProtocolBufferException e) {
+                    e.printStackTrace();
+                }
                 System.out.println(consumerName + ": Received message:(" + record.key() + "," + record.value() + ") at offset " + record.offset());
             }
         }
     }
 
     public static void main(String[] args) {
-        KafkaConsumerDemo demo = new KafkaConsumerDemo("consumer1", "kafka_study_demo");
+        KafkaConsumerDemo demo = new KafkaConsumerDemo("consumer1", "async_cache");
         new Thread(() -> demo.consumer()).start();
-        KafkaConsumerDemo demo2 = new KafkaConsumerDemo("consumer2", "kafka_study_demo");
-        new Thread(() -> demo2.consumer()).start();
     }
 }
