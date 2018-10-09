@@ -2,6 +2,9 @@ package thread;
 
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * ReentrantLock 可重入锁的学习
+ */
 public class ReentrantLockDemo {
     private static ReentrantLock lock = new ReentrantLock();
 

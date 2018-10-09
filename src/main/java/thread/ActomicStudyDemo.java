@@ -1,9 +1,12 @@
 package thread;
 
-public class MyThread29 extends Thread {
+/**
+ * 使用Actomic出现的问题（多运行几次）
+ */
+public class ActomicStudyDemo extends Thread {
     private ThreadDomain29 td;
 
-    public MyThread29(ThreadDomain29 td) {
+    public ActomicStudyDemo(ThreadDomain29 td) {
         this.td = td;
     }
 
@@ -14,9 +17,9 @@ public class MyThread29 extends Thread {
 
     public static void main(String[] args) throws InterruptedException {
         ThreadDomain29 td = new ThreadDomain29();
-        MyThread29[] mt = new MyThread29[5];
+        ActomicStudyDemo[] mt = new ActomicStudyDemo[5];
         for (int i = 0; i < mt.length; i++) {
-            mt[i] = new MyThread29(td);
+            mt[i] = new ActomicStudyDemo(td);
         }
         for (int i = 0; i < mt.length; i++) {
             mt[i].start();

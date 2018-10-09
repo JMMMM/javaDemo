@@ -4,6 +4,9 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 线程池的研究学习
+ */
 public class ThreadPoolExecuteDemo {
     public static void main(String[] args) throws InterruptedException {
         new Thread().start();

@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4988d030-207d-42d2-bdfd-d2fe9f009f66" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/CpuCheckDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/MyThread29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/ActomicStudyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ReentrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/ReentrantLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadPoolExecuteDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/ThreadPoolExecuteDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadPriceDemo1Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadPrintDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadPrintDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/ThreadPrintDemo3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,17 +20,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CpuCheckDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CpuCheckDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/CpuCheckDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActomicStudyDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/ActomicStudyDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
-                <element signature="e#166#386#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#425#608#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadDemo1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadDemo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReentrantLockDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/ReentrantLockDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadDemo2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadDomain29.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadDomain29.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPrintDemo3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadPrintDemo3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPoolExecuteDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadPoolExecuteDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -69,6 +137,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/thread/WaitNotifyDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/CpuCheckDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/MyThread29.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/ReentrantLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/ThreadPoolExecuteDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/AxtomicStudyDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/ActomicStudyDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/ThreadPrintDemo3.java" />
       </list>
     </option>
   </component>
@@ -105,7 +179,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
+    <option name="x" value="122" />
     <option name="y" value="23" />
     <option name="width" value="1220" />
     <option name="height" value="796" />
@@ -116,8 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,7 +227,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,7 +256,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CpuCheckDemo">
+  <component name="RunManager" selected="Application.ThreadPrintDemo3">
+    <configuration name="ActomicStudyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.ActomicStudyDemo" />
+      <module name="javaDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="CpuCheckDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.CpuCheckDemo" />
       <module name="javaDemo" />
@@ -194,41 +279,30 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HelloJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.HelloJava" />
+    <configuration name="ThreadDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.ThreadDemo2" />
       <module name="javaDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Pinyin4JDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pinyin.Pinyin4JDemo" />
+    <configuration name="ThreadPriceDemo1Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.ThreadPriceDemo1Test" />
       <module name="javaDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pinyin.*" />
+          <option name="PATTERN" value="thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TinyPinyinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pinyin.TinyPinyinDemo" />
-      <module name="javaDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pinyin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="WaitNotifyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.WaitNotifyDemo" />
+    <configuration name="ThreadPrintDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.ThreadPrintDemo3" />
       <module name="javaDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -338,19 +412,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Application.HelloJava" />
-      <item itemvalue="Application.Pinyin4JDemo" />
-      <item itemvalue="Application.TinyPinyinDemo" />
-      <item itemvalue="Application.WaitNotifyDemo" />
       <item itemvalue="Application.CpuCheckDemo" />
+      <item itemvalue="Application.ActomicStudyDemo" />
+      <item itemvalue="Application.ThreadDemo2" />
+      <item itemvalue="Application.ThreadPriceDemo1Test" />
+      <item itemvalue="Application.ThreadPrintDemo3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPrintDemo3" />
+        <item itemvalue="Application.ThreadPriceDemo1Test" />
+        <item itemvalue="Application.ThreadDemo2" />
+        <item itemvalue="Application.ActomicStudyDemo" />
         <item itemvalue="Application.CpuCheckDemo" />
-        <item itemvalue="Application.WaitNotifyDemo" />
-        <item itemvalue="Application.TinyPinyinDemo" />
-        <item itemvalue="Application.Pinyin4JDemo" />
-        <item itemvalue="Application.HelloJava" />
       </list>
     </recent_temporary>
   </component>
@@ -383,6 +457,8 @@
       <workItem from="1538755549346" duration="774000" />
       <workItem from="1539055037515" duration="526000" />
       <workItem from="1539055583770" duration="1793000" />
+      <workItem from="1539064300921" duration="24000" />
+      <workItem from="1539072036434" duration="330000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1537414632961</created>
@@ -409,10 +485,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18735000" />
+    <option name="totallyTimeSpent" value="19089000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="23" width="1220" height="796" extended-state="0" />
+    <frame x="122" y="23" width="1220" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -426,7 +502,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44778255" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.44778255" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32761088" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -436,7 +512,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32761088" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32761088" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33955857" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33955857" />
       <window_info anchor="right" id="SciView" order="7" weight="0.3293718" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -453,7 +529,7 @@
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32761088" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -461,6 +537,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32761088" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="LuaJ" order="5" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32761088" />
@@ -468,7 +545,6 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Maven Projects" order="10" visible="true" weight="0.2860781" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33955857" />
       <window_info anchor="right" id="SciView" order="7" weight="0.3293718" />
       <window_info anchor="right" id="Database" order="6" />
@@ -701,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jvm/JvmDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -757,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadDomain29.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadPrintDemo3Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -771,62 +833,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadPrintDemo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadPrintDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadPriceDemo1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadPoolExecuteDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/MyThread29.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ReentrantLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zookeeper_lock/ZookeeperLockUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,14 +849,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/CpuCheckDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ReentrantLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadPoolExecuteDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ActomicStudyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <element signature="e#166#386#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#425#608#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadDomain29.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadPrintDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-321">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadPriceDemo1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadPrintDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>

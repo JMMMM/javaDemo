@@ -1,5 +1,8 @@
 package thread;
 
+/**
+ * CAS的奇偶输出
+ */
 class ThreadPrintDemo3 {
 
     static volatile int num = 0;
