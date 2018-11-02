@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4988d030-207d-42d2-bdfd-d2fe9f009f66" name="Default" comment="123">
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/DateDemo.java" afterDir="false" />
+    <list default="true" id="4988d030-207d-42d2-bdfd-d2fe9f009f66" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/SuperClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jvm/NotInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/NotInitialization.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,12 +16,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DateDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demo/DateDemo.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="NotInitialization.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/NotInitialization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/SubClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -77,7 +88,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/demo/DruidDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/FinalizeEscapeGC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jvm/NotInitialization.java" />
         <option value="$PROJECT_DIR$/src/main/java/redis_lock/RedisDistributedLockUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/VolatileDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/SynchronizerDemo.java" />
@@ -85,6 +95,9 @@
         <option value="$PROJECT_DIR$/src/main/java/demo/TestDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/face/DemoTest1.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/DateDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/SuperClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/NotInitialization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/SubClass.java" />
       </list>
     </option>
   </component>
@@ -121,8 +134,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
-    <option name="y" value="24" />
+    <option name="x" value="179" />
+    <option name="y" value="23" />
     <option name="width" value="1346" />
     <option name="height" value="796" />
   </component>
@@ -132,6 +145,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,13 +180,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DateDemo">
+  <component name="RunManager" selected="Application.NotInitialization">
     <configuration name="DateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.DateDemo" />
       <module name="javaDemo" />
@@ -223,19 +244,20 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.SynchronizedDemo" />
+    <configuration name="NotInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.NotInitialization" />
       <module name="javaDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-XX:+TraceClassLoading" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SynchronizerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.SynchronizerDemo" />
+    <configuration name="SynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.SynchronizedDemo" />
       <module name="javaDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -356,19 +378,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Application.SynchronizerDemo" />
       <item itemvalue="Application.SynchronizedDemo" />
       <item itemvalue="Application.TestDemo" />
       <item itemvalue="Application.HelloJava" />
       <item itemvalue="Application.DateDemo" />
+      <item itemvalue="Application.NotInitialization" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NotInitialization" />
         <item itemvalue="Application.DateDemo" />
         <item itemvalue="Application.HelloJava" />
         <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.SynchronizedDemo" />
-        <item itemvalue="Application.SynchronizerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -413,6 +435,8 @@
       <workItem from="1540463516628" duration="2698000" />
       <workItem from="1540806213215" duration="169000" />
       <workItem from="1540977508027" duration="2706000" />
+      <workItem from="1541036821248" duration="110000" />
+      <workItem from="1541129123183" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1537414632961</created>
@@ -435,14 +459,22 @@
       <option name="project" value="LOCAL" />
       <updated>1539056112689</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="123">
+      <created>1541036922573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541036922573</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38645000" />
+    <option name="totallyTimeSpent" value="39062000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="24" width="1346" height="796" extended-state="0" />
+    <frame x="562" y="39" width="1346" height="796" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007669" side_tool="true" weight="0.32761088" />
@@ -455,7 +487,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44778255" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.44778255" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32761088" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -465,7 +497,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32761088" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.35429448" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35429448" />
       <window_info anchor="right" id="SciView" order="7" weight="0.3293718" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -479,10 +511,9 @@
     <layout-to-restore>
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49923313" visible="true" weight="0.32761088" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923313" weight="0.32761088" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -490,6 +521,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32761088" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="LuaJ" order="5" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007669" side_tool="true" weight="0.32761088" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32761088" />
@@ -498,7 +530,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.2860781" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35429448" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35429448" />
       <window_info anchor="right" id="SciView" order="7" weight="0.3293718" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -571,8 +603,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pinyin/Pinyin4JDemo.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/promeg/tinypinyin/2.0.3/tinypinyin-2.0.3.jar!/com/github/promeg/pinyinhelper/Utils.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pinyin/TinyPinyinDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/jvm/GCDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -730,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/NotInitialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kafka/KafkaConsumerHighDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -842,9 +865,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/DateDemo">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/DateDemo" />
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/TestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -889,8 +910,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/DateDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="180">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/SuperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/NotInitialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/SubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
         </state>
       </provider>
     </entry>
