@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4988d030-207d-42d2-bdfd-d2fe9f009f66" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/SubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/ConstClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jvm/NotInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/NotInitialization.java" afterDir="false" />
     </list>
@@ -17,20 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NotInitialization.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NotInitialization.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/jvm/NotInitialization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubClass.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/SubClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -96,8 +86,9 @@
         <option value="$PROJECT_DIR$/src/main/java/face/DemoTest1.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/DateDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/SuperClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jvm/NotInitialization.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/SubClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/ConstClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/NotInitialization.java" />
       </list>
     </option>
   </component>
@@ -134,7 +125,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="179" />
+    <option name="x" value="316" />
     <option name="y" value="23" />
     <option name="width" value="1346" />
     <option name="height" value="796" />
@@ -436,7 +427,7 @@
       <workItem from="1540806213215" duration="169000" />
       <workItem from="1540977508027" duration="2706000" />
       <workItem from="1541036821248" duration="110000" />
-      <workItem from="1541129123183" duration="307000" />
+      <workItem from="1541129123183" duration="2114000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1537414632961</created>
@@ -470,10 +461,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39062000" />
+    <option name="totallyTimeSpent" value="40869000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="562" y="39" width="1346" height="796" extended-state="0" />
+    <frame x="316" y="23" width="1346" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -487,7 +478,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.44778255" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.44778255" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32761088" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -497,7 +488,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32761088" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35429448" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.35429448" />
       <window_info anchor="right" id="SciView" order="7" weight="0.3293718" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -511,9 +502,10 @@
     <layout-to-restore>
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923313" weight="0.32761088" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923313" weight="0.32761088" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -521,7 +513,6 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32761088" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="LuaJ" order="5" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007669" side_tool="true" weight="0.32761088" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32761088" />
@@ -603,7 +594,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pinyin/TinyPinyinDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/jvm/GCDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -925,17 +915,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/NotInitialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jvm/SubClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/ConstClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/NotInitialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
