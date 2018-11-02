@@ -11,7 +11,7 @@ public class NotInitialization {
 //        System.out.println(SubClass.value);
         //case 2:-XX:+TraceClassLoading
 //        SuperClass[] sca = new SuperClass[10];
-        //case 3:
+        //case 3:编译的时候会把ConstClass里面的常量，移到当前的类。
         System.out.println(ConstClass.HELLOWORLD);
     }
 }
