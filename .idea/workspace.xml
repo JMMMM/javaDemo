@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4988d030-207d-42d2-bdfd-d2fe9f009f66" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/PlaceHolderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/DynamicDispatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/Overload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,11 +16,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PlaceHolderDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/PlaceHolderDemo.java">
+      <file leaf-file-name="Overload.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/Overload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="210">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicDispatch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/DynamicDispatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <folding>
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,6 +123,8 @@
         <option value="$PROJECT_DIR$/src/main/java/jvm/ConstClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/NotInitialization.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/PlaceHolderDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/Overload.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/DynamicDispatch.java" />
       </list>
     </option>
   </component>
@@ -125,8 +161,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="420" />
-    <option name="y" value="450" />
+    <option name="x" value="726" />
+    <option name="y" value="23" />
     <option name="width" value="1346" />
     <option name="height" value="796" />
   </component>
@@ -212,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PlaceHolderDemo">
+  <component name="RunManager" selected="Application.DynamicDispatch">
     <configuration name="DateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.DateDemo" />
       <module name="javaDemo" />
@@ -224,13 +260,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HelloJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.HelloJava" />
+    <configuration name="DynamicDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.DynamicDispatch" />
       <module name="javaDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,6 +283,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Overload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.Overload" />
+      <module name="javaDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="PlaceHolderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jvm.PlaceHolderDemo" />
       <module name="javaDemo" />
@@ -255,17 +302,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.TestDemo" />
-      <module name="javaDemo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,19 +406,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Application.TestDemo" />
-      <item itemvalue="Application.HelloJava" />
       <item itemvalue="Application.DateDemo" />
       <item itemvalue="Application.NotInitialization" />
       <item itemvalue="Application.PlaceHolderDemo" />
+      <item itemvalue="Application.Overload" />
+      <item itemvalue="Application.DynamicDispatch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynamicDispatch" />
+        <item itemvalue="Application.Overload" />
         <item itemvalue="Application.PlaceHolderDemo" />
         <item itemvalue="Application.NotInitialization" />
         <item itemvalue="Application.DateDemo" />
-        <item itemvalue="Application.HelloJava" />
-        <item itemvalue="Application.TestDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +464,7 @@
       <workItem from="1540806213215" duration="169000" />
       <workItem from="1540977508027" duration="2706000" />
       <workItem from="1541036821248" duration="110000" />
-      <workItem from="1541129123183" duration="3804000" />
+      <workItem from="1541129123183" duration="5130000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1537414632961</created>
@@ -462,10 +498,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42559000" />
+    <option name="totallyTimeSpent" value="43885000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="420" y="450" width="1346" height="796" extended-state="0" />
+    <frame x="674" y="23" width="1346" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -479,13 +515,13 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44778255" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.44778255" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32761088" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49923313" visible="true" weight="0.32761088" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923313" weight="0.32761088" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32761088" />
@@ -503,7 +539,7 @@
     <layout-to-restore>
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923313" weight="0.32761088" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923313" visible="true" weight="0.32761088" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -511,7 +547,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32761088" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32761088" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="LuaJ" order="5" />
@@ -595,20 +631,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/face/IntegerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/face/DemoTest4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zookeeper_lock/ZookeeperLockUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -932,8 +954,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jvm/PlaceHolderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/Overload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/DynamicDispatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
