@@ -36,6 +36,8 @@ public class ThreadPoolExecuteDemo {
         /**
          * 此处shutdownNow并没有实际生效，由于代码中都没有可以interrupted的点
          * 所以即使shutdownNow依然没法马上结束线程池
+         * 如果线程中没有sleep 、wait、Condition、定时锁等应用, interrupt()方法是无法中断当前的线程的。
+         * 所以，ShutdownNow()并不代表线程池就一定立即就能退出，它可能必须要等待所有正在执行的任务都执行完成了才能退出。
          */
         threadPoolExecute.shutdownNow();
     }
