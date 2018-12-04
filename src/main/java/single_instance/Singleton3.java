@@ -11,10 +11,13 @@ public class Singleton3 {
     static Singleton3 getInstance(){
         return _INSTANCE;
     }
-
+    private Singleton3(){
+        System.out.println("ini");
+    }
 
     public static void main(String[] args) {
         System.out.println("hello world start ");
+        Singleton3.getInstance();
         System.out.println("hello world end");
 
     }
