@@ -5,6 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 强引用的转换，这里是吧map从a引用，转移到list引用
+ */
 public class Demo1 {
 
     public static void add(int temp) {
