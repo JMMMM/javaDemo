@@ -11,8 +11,11 @@ public class OOMDemo {
 
     public static void main(String[] args) {
         List<byte[]> arr =new ArrayList<>();
+        int i =0;
         while(true){
             arr.add(new byte[_1MB]);
+            i++;
+            System.out.println(">>>>>>>>>>>>>>>"+i);
         }
     }
 }
