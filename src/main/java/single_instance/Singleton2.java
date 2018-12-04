@@ -5,7 +5,6 @@ package single_instance;
  */
 public class Singleton2 {
     private static Singleton2 _INSTANCE;
-
     //这里用的是类锁，锁住了getInstance方法，也是导致性能不够好的主要原因。
     static synchronized Singleton2 getInstance() {
         if (_INSTANCE == null) _INSTANCE = new Singleton2();
