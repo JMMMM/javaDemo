@@ -9,42 +9,50 @@ public class ThreadLocalOOm {
     }
 }
 
+class Person {
+    private byte[] name;
+
+    public Person() {
+        name = new byte[1024 * 1024];
+    }
+
+    @Override
+    public void finalize() {
+        System.out.println("person finalize...");
+    }
+
+}
 
 class Thread1 implements Runnable {
-    private static ThreadLocal<byte[]> threadLocal1 = new ThreadLocal<>();
-
 
     @Override
     public void run() {
-        byte[] result = new byte[1024 * 1024];
-        new Thread(new Thread2(result)).start();
+        new Thread(new Thread2()).start();
         System.gc();
         try {
             Thread.sleep(1 * 1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println(result);
-        List<byte[]> list = new ArrayList<>();
-        list.add(result);
-        System.out.println(">>>>>>>>>>>"+1);
-        while (true) {
-            list.add(new byte[1024 * 1024]);
-            System.out.println(">>>>>>>>>>>"+1);
-        }
+        System.gc();
+        List<Person> list = new ArrayList<>();
+        list.add(new Person());
     }
 }
 
 class Thread2 implements Runnable {
+    private static ThreadLocal<Person> threadLocal1 = new ThreadLocal<>();
 
-    private byte[] storage;
+    private Person person;
 
-    public Thread2(byte[] storage) {
-        this.storage = storage;
+    public Thread2() {
+        this.person = new Person();
+        threadLocal1.set(person);
     }
 
     @Override
     public void run() {
-        System.out.println(storage.length);
+        System.out.println(Thread.currentThread().getName() + ":" + person);
+        threadLocal1.remove();
     }
 }
