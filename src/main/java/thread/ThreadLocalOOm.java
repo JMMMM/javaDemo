@@ -4,13 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ThreadLocalOOm {
-    public static void main(String[] args) {
-        new Thread(new Thread1()).start();
+    public static void main(String[] args) throws InterruptedException {
+        Person p = new Person();
+        new Thread(new Thread2(p)).start();
+        Thread.sleep(2 * 1000);
+        System.out.println(p.name);
     }
 }
 
 class Person {
-    private byte[] name;
+    public byte[] name;
 
     public Person() {
         name = new byte[1024 * 1024];
@@ -23,36 +26,24 @@ class Person {
 
 }
 
-class Thread1 implements Runnable {
-
-    @Override
-    public void run() {
-        new Thread(new Thread2()).start();
-        System.gc();
-        try {
-            Thread.sleep(1 * 1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.gc();
-        List<Person> list = new ArrayList<>();
-        list.add(new Person());
-    }
-}
 
 class Thread2 implements Runnable {
-    private static ThreadLocal<Person> threadLocal1 = new ThreadLocal<>();
+    private ThreadLocal<Person> threadLocal1 = new ThreadLocal<>();
 
-    private Person person;
-
-    public Thread2() {
-        this.person = new Person();
+    public Thread2(Person person) {
         threadLocal1.set(person);
     }
 
     @Override
     public void run() {
-        System.out.println(Thread.currentThread().getName() + ":" + person);
+        System.out.println(Thread.currentThread().getName() + ":" + threadLocal1.get());
         threadLocal1.remove();
+        System.gc();
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.gc();
     }
 }
