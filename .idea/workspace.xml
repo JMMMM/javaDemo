@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4988d030-207d-42d2-bdfd-d2fe9f009f66" name="Default" comment="123">
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadLocalOOm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/ThreadLocalOOm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,69 +30,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="220" column="23" lean-forward="true" selection-start-line="220" selection-start-column="23" selection-end-line="220" selection-end-column="23" />
-              <folding>
-                <element signature="e#3276#3277#0" expanded="true" />
-                <element signature="e#3337#3338#0" expanded="true" />
-                <element signature="e#4309#4310#0" expanded="true" />
-                <element signature="e#4336#4337#0" expanded="true" />
-                <element signature="e#7765#7766#0" expanded="true" />
-                <element signature="e#7802#7803#0" expanded="true" />
-                <element signature="e#8068#8069#0" expanded="true" />
-                <element signature="e#8137#8138#0" expanded="true" />
-                <element signature="e#11458#11459#0" expanded="true" />
-                <element signature="e#11505#11506#0" expanded="true" />
-                <element signature="e#11620#11621#0" expanded="true" />
-                <element signature="e#11678#11679#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/OOMDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/OOMMapDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="61" />
+            <state relative-caret-position="69">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadLocalOOm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,7 +54,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>UNLOCK_LUA</find>
       <find>readObject</find>
       <find>submitted</find>
       <find>execute(</find>
@@ -134,7 +78,12 @@
       <find>set()</find>
       <find>set(</find>
       <find>replaceStaleEntry</find>
+      <find>finalized</find>
+      <find>fi</find>
       <find>remove</find>
+      <find>System.in</find>
+      <find>Integer</find>
+      <find>Thread()</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -146,13 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/demo/ListDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kafka/consumer.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/kafka/KafkaConsumerDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demo/HelloJava.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pinyin/Pinyin4JDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pinyin/TinyPinyinDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/WaitNotifyDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/CpuCheckDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/MyThread29.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/ReentrantLockDemo.java" />
@@ -195,8 +137,15 @@
         <option value="$PROJECT_DIR$/src/main/java/single_instance/Singleton3.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/OOMMapDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/OOMDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/ThreadLocalOOm.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/Demo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/ThreadLocalOOm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/thread_local/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo4.java" />
       </list>
     </option>
   </component>
@@ -224,8 +173,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="109" />
-    <option name="y" value="72" />
+    <option name="x" value="90" />
+    <option name="y" value="23" />
     <option name="width" value="1113" />
     <option name="height" value="796" />
   </component>
@@ -300,7 +249,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadLocalOOm.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="thread_local" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,14 +262,14 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544089275579" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544152647274" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -340,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo2">
+  <component name="RunManager" selected="Application.Demo4">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -399,13 +348,41 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="Demo0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.thread_local.Demo0" />
+      <module name="javaDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.thread_local.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.thread_local.Demo1" />
+      <module name="javaDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.thread_local.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo2" />
+      <option name="MAIN_CLASS_NAME" value="thread.thread_local.Demo2" />
       <module name="javaDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="thread.thread_local.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,13 +390,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalizeEscapeGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.FinalizeEscapeGC" />
+    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.thread_local.Demo3" />
       <module name="javaDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.*" />
+          <option name="PATTERN" value="thread.thread_local.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -427,40 +404,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOMDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.OOMDemo" />
-      <module name="javaDemo" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -Xmx3M -XX:+PrintGCDetails" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OOMMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.OOMMapDemo" />
+    <configuration name="Demo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.thread_local.Demo4" />
       <module name="javaDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadLocalOOm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.ThreadLocalOOm" />
-      <module name="javaDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="thread.thread_local.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -489,19 +439,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OOMMapDemo" />
-      <item itemvalue="Application.OOMDemo" />
-      <item itemvalue="Application.ThreadLocalOOm" />
-      <item itemvalue="Application.FinalizeEscapeGC" />
-      <item itemvalue="Application.Demo2" />
+      <item itemvalue="Application.Demo1" />
+      <item itemvalue="Application.Demo2 (1)" />
+      <item itemvalue="Application.Demo3" />
+      <item itemvalue="Application.Demo0" />
+      <item itemvalue="Application.Demo4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo2" />
-        <item itemvalue="Application.ThreadLocalOOm" />
-        <item itemvalue="Application.FinalizeEscapeGC" />
-        <item itemvalue="Application.OOMDemo" />
-        <item itemvalue="Application.OOMMapDemo" />
+        <item itemvalue="Application.Demo4" />
+        <item itemvalue="Application.Demo3" />
+        <item itemvalue="Application.Demo4" />
+        <item itemvalue="Application.Demo2 (1)" />
+        <item itemvalue="Application.Demo0" />
       </list>
     </recent_temporary>
   </component>
@@ -556,7 +506,7 @@
       <workItem from="1543560338216" duration="1061000" />
       <workItem from="1543903047768" duration="2129000" />
       <workItem from="1543906551185" duration="3100000" />
-      <workItem from="1543912111810" duration="18194000" />
+      <workItem from="1543912111810" duration="25379000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1537414632961</created>
@@ -677,18 +627,32 @@
       <option name="project" value="LOCAL" />
       <updated>1543976653147</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="123">
+      <created>1544089450081</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1544089450081</updated>
+    </task>
+    <task id="LOCAL-00019" summary="123">
+      <created>1544151244652</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1544151244652</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99531000" />
+    <option name="totallyTimeSpent" value="106716000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="109" y="72" width="1113" height="796" extended-state="0" />
+    <frame x="90" y="23" width="1113" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24929972" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49871466" visible="true" weight="0.24929972" />
+      <window_info id="Structure" order="1" sideWeight="0.5012854" side_tool="true" weight="0.24929972" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -696,8 +660,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49923313" visible="true" weight="0.3252841" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986619" weight="0.4474432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923313" weight="0.3252841" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4986619" visible="true" weight="0.4474432" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -779,6 +743,36 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo3.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo3.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo4.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo4.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo4.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -797,77 +791,58 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>t.threadLocals</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.threadLocals</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>key.threadLocalHashCode</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>0x61c88647*2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>key.threadLocalHashCode &amp; (len-1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>0x61c88647</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>t.isInterrupted()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>runStateOf(c)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>runStateOf(c) == SHUTDOWN</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>runStateAtLeast(c, TIDYING)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>isRunning(c)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>I</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>c</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>tasks</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cir</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ehcache/ehcache/3.6.1/ehcache-3.6.1.jar!/org/ehcache/config/builders/CacheConfigurationBuilder.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ehcache/ehcache/3.6.1/ehcache-3.6.1.jar!/org/ehcache/config/builders/CacheManagerBuilder.class" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="703" column="62" lean-forward="true" selection-start-line="703" selection-start-column="62" selection-end-line="703" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#80896#0" expanded="true" />
-            <element signature="e#19002#19010#0" expanded="true" />
-            <element signature="e#31948#31949#0" expanded="true" />
-            <element signature="e#32004#32005#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ehcache/ehcache/3.6.1/ehcache-3.6.1.jar!/org/ehcache/config/Builder.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ehcache/ehcache/3.6.1/ehcache-3.6.1.jar!/org/ehcache/config/builders/UserManagedCacheBuilder.class" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/DelayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="76" column="32" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.12/1.1.1/kafka_2.12-1.1.1.jar!/kafka/utils/timer/TimingWheel.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/ehcache/ehcache/3.6.2/ehcache-3.6.2.jar!/org/ehcache/impl/persistence/DefaultLocalPersistenceService.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/ehcache/ehcache/3.5.2/ehcache-3.5.2.jar!/org/ehcache/impl/persistence/DefaultLocalPersistenceService.class" />
@@ -882,16 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/FileNotCloseDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1071,17 +1036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="181" column="21" lean-forward="true" selection-start-line="181" selection-start-column="21" selection-end-line="181" selection-end-column="21" />
-          <folding>
-            <element signature="e#37058#37059#0" expanded="true" />
-            <element signature="e#37101#37102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Override.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -1093,13 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="31" column="27" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="554" column="19" selection-start-line="554" selection-start-column="19" selection-end-line="554" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1141,30 +1088,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/ref/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="252" column="13" selection-start-line="252" selection-start-column="13" selection-end-line="252" selection-end-column="13" />
-          <folding>
-            <element signature="e#9332#9333#0" expanded="true" />
-            <element signature="e#9368#9369#0" expanded="true" />
-            <element signature="e#9683#9684#0" expanded="true" />
-            <element signature="e#9719#9720#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
         </state>
       </provider>
     </entry>
@@ -1175,20 +1102,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/OOMMapDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="61" />
+        <state relative-caret-position="163">
+          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/ref/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="263" column="16" selection-start-line="263" selection-start-column="16" selection-end-line="263" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#9332#9333#0" expanded="true" />
+            <element signature="e#9368#9369#0" expanded="true" />
+            <element signature="e#9683#9684#0" expanded="true" />
+            <element signature="e#9719#9720#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadLocalOOm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        <state relative-caret-position="342">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#386#387#0" expanded="true" />
@@ -1199,10 +1136,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/OOMMapDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="61" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="550" column="39" lean-forward="true" selection-start-line="550" selection-start-column="39" selection-end-line="550" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/FileNotCloseDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_local/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="220" column="23" lean-forward="true" selection-start-line="220" selection-start-column="23" selection-end-line="220" selection-end-column="23" />
+        <state relative-caret-position="114">
+          <caret line="198" column="30" lean-forward="true" selection-start-line="198" selection-start-column="30" selection-end-line="198" selection-end-column="30" />
           <folding>
             <element signature="e#3276#3277#0" expanded="true" />
             <element signature="e#3337#3338#0" expanded="true" />
@@ -1216,6 +1231,31 @@
             <element signature="e#11505#11506#0" expanded="true" />
             <element signature="e#11620#11621#0" expanded="true" />
             <element signature="e#11678#11679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-740">
+          <caret line="362" column="17" selection-start-line="362" selection-start-column="17" selection-end-line="362" selection-end-column="17" />
+          <folding>
+            <element signature="e#14781#14782#0" expanded="true" />
+            <element signature="e#14845#14846#0" expanded="true" />
+            <element signature="e#37058#37059#0" expanded="true" />
+            <element signature="e#37101#37102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
           </folding>
         </state>
       </provider>
