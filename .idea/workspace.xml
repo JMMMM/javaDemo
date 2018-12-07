@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4988d030-207d-42d2-bdfd-d2fe9f009f66" name="Default" comment="123">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo3.java" afterDir="false" />
     </list>
@@ -29,15 +28,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
+            <state relative-caret-position="-63">
               <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#225#226#0" expanded="true" />
                 <element signature="e#264#265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+              <folding>
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,8 +156,8 @@
         <option value="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo0.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo2.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/thread_local/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo3.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/thread_local/Demo3.java" />
       </list>
     </option>
   </component>
@@ -251,6 +263,16 @@
               <item name="thread" type="462c0819:PsiDirectoryNode" />
               <item name="thread_local" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="thread_local" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo3.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -262,7 +284,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544152647274" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544152723263" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -289,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo4">
+  <component name="RunManager" selected="Application.Demo3">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -447,8 +469,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo4" />
         <item itemvalue="Application.Demo3" />
+        <item itemvalue="Application.Demo4" />
         <item itemvalue="Application.Demo4" />
         <item itemvalue="Application.Demo2 (1)" />
         <item itemvalue="Application.Demo0" />
@@ -506,7 +528,7 @@
       <workItem from="1543560338216" duration="1061000" />
       <workItem from="1543903047768" duration="2129000" />
       <workItem from="1543906551185" duration="3100000" />
-      <workItem from="1543912111810" duration="25379000" />
+      <workItem from="1543912111810" duration="25455000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1537414632961</created>
@@ -641,11 +663,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544151244652</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="123">
+      <created>1544152655195</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1544152655195</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106716000" />
+    <option name="totallyTimeSpent" value="106792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="90" y="23" width="1113" height="796" extended-state="0" />
@@ -660,8 +689,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923313" weight="0.3252841" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4986619" visible="true" weight="0.4474432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49923313" visible="true" weight="0.3252841" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986619" weight="0.4474432" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -754,18 +783,6 @@
           <line>27</line>
           <properties />
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo4.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo4.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo4.java</url>
@@ -1203,17 +1220,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1250,12 +1256,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
+        <state relative-caret-position="-63">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
             <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/thread_local/Demo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
           </folding>
         </state>
       </provider>

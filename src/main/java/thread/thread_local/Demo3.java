@@ -29,7 +29,7 @@ class ChildThread3 extends Thread {
         threadLocal.set(person);
 
         System.out.println("threadlocal gc start ");
-//        threadLocal.remove();这个去掉可以试试
+//        threadLocal.remove();//去掉这个试试
         threadLocal = null;
         person = null;
         System.gc();
