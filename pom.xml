@@ -7,7 +7,9 @@
     <groupId>javaDemo</groupId>
     <artifactId>javaDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <properties>
+        <es.version>6.5.3</es.version>
+    </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-core -->
         <dependency>
@@ -50,6 +52,13 @@
             <artifactId>ehcache</artifactId>
             <version>3.6.2</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>transport</artifactId>
+            <version>${es.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
