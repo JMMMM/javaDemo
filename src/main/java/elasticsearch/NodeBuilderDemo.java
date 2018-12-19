@@ -15,7 +15,6 @@ public class NodeBuilderDemo {
         TransportClient client = new PreBuiltTransportClient(settings).addTransportAddress(new TransportAddress(InetAddress.getByName("localhost"), 9300));
         SearchResponse response = client.prepareSearch("megacorp").setTypes("employee").get();
         System.out.println(response);
-
         System.out.println(        response.getHits().getAt(0).getSourceAsMap());
         client.close();
     }
