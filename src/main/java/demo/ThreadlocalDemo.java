@@ -12,5 +12,16 @@ public class ThreadlocalDemo {
             System.gc();
             System.out.println(threadLocal.get());
         }).start();
+
+        int fee = 200;
+        //彩蛋：这个东西是goto语句的那个名字
+        saveDefault:save(fee);
+    }
+
+    static void saveDefault(){
+        System.out.println("saveDefault");
+    }
+    static void save(int fee){
+        System.out.println("save");
     }
 }
