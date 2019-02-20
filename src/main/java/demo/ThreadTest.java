@@ -2,7 +2,9 @@ package demo;
 
 /**
  * 用于测试类加载过程中，只允许一个线程对类进行初始化，其余的线程必须等待
- * 失败的。
+ *
+ *
+ * 目前代码是失败的。
  */
 public class ThreadTest {
     public static void main(String[] args) {
