@@ -3,6 +3,7 @@ package thread;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 线程池的研究学习
@@ -30,6 +31,12 @@ public class ThreadPoolExecuteDemo {
         threadPoolExecute.execute(() -> {
             while (true) {
                 System.out.println("hello3333333");
+            }
+        });
+        ReentrantLock lock = new ReentrantLock();
+        threadPoolExecute.execute(() -> {
+            while (true) {
+                System.out.println("hello4444444");
             }
         });
         Thread.sleep(3000);
