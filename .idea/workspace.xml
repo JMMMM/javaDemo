@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7a54c36f-88bc-46d1-8d1b-cec27258e1df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadPoolExecuteDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/ThreadPoolExecuteDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,38 +13,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="1419" column="27" selection-start-line="1419" selection-start-column="12" selection-end-line="1419" selection-end-column="27" />
-              <folding>
-                <element signature="e#16568#16569#0" expanded="true" />
-                <element signature="e#16597#16598#0" expanded="true" />
-                <element signature="e#16644#16645#0" expanded="true" />
-                <element signature="e#16679#16680#0" expanded="true" />
-                <element signature="e#16824#16825#0" expanded="true" />
-                <element signature="e#16884#16885#0" expanded="true" />
-                <element signature="e#17336#17337#0" expanded="true" />
-                <element signature="e#17409#17410#0" expanded="true" />
-                <element signature="e#19002#19010#0" expanded="true" />
-                <element signature="e#25063#25064#0" expanded="true" />
-                <element signature="e#25102#25103#0" expanded="true" />
-                <element signature="e#31948#31949#0" expanded="true" />
-                <element signature="e#32004#32005#0" expanded="true" />
-                <element signature="e#59415#59416#0" expanded="true" />
-                <element signature="e#59451#59452#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadPoolExecuteDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kafka/KafkaProducerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+            <state relative-caret-position="157">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,20 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>iterator(</find>
-      <find>get</find>
-      <find>ensureCapacity</find>
-      <find>trimToSize</find>
-      <find>add(</find>
-      <find>toArray</find>
-      <find>toArray(</find>
-      <find>linkbef</find>
-      <find>append</find>
-      <find>JedisPool</find>
-      <find>concurrentHashMa</find>
-      <find>rehash</find>
-      <find>put(</find>
-      <find>Hash</find>
       <find>Iterator</find>
       <find>iterator()</find>
       <find>BaseInter</find>
@@ -90,6 +74,20 @@
       <find>ctl</find>
       <find>shutDOwn</find>
       <find>shutdownNow</find>
+      <find>shutdownNow(</find>
+      <find>execute(</find>
+      <find>execute()</find>
+      <find>processWorkerExit(</find>
+      <find>addWorker</find>
+      <find>processWorkerExit</find>
+      <find>allowCoreThreadTimeOut</find>
+      <find>vol</find>
+      <find>pigs</find>
+      <find>Hash</find>
+      <find>add</find>
+      <find>add(</find>
+      <find>HashMap</find>
+      <find>return</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -117,14 +115,16 @@
         <option value="$PROJECT_DIR$/src/main/java/demo/SimpleClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/SubClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/DeadLockDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demo/Demo3.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/JavaBug6260652.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/ListDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/ThreadTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/redis_lock/RedisIncyDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kafka/KafkaProducerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/activeMQ/Comsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/ThreadPoolExecuteDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/PigInThePython.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kafka/KafkaProducerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/Demo3.java" />
       </list>
     </option>
   </component>
@@ -136,7 +136,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
+    <option name="x" value="22" />
     <option name="y" value="23" />
     <option name="width" value="1418" />
     <option name="height" value="796" />
@@ -148,7 +148,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,6 +172,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis_lock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -217,12 +232,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551259551365" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551663912544" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -240,9 +256,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadPoolExecuteDemo">
-    <configuration name="ListDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.ListDemo" />
+  <component name="RunManager" selected="Application.Demo3">
+    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo3" />
       <module name="javaDemo" />
       <extension name="coverage">
         <pattern>
@@ -308,11 +324,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo3" />
         <item itemvalue="Application.ThreadPoolExecuteDemo" />
         <item itemvalue="Application.RedisIncyDemo" />
         <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.TestDemo" />
-        <item itemvalue="Application.ListDemo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +360,9 @@
       <workItem from="1550212694662" duration="5579000" />
       <workItem from="1550562353341" duration="4130000" />
       <workItem from="1550642338616" duration="2054000" />
-      <workItem from="1551066301428" duration="7854000" />
+      <workItem from="1551066301428" duration="11168000" />
+      <workItem from="1551318897358" duration="8370000" />
+      <workItem from="1551663601436" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1546408667559</created>
@@ -444,17 +462,24 @@
       <option name="project" value="LOCAL" />
       <updated>1550631555506</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="123">
+      <created>1551259613180</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1551259613180</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69050000" />
+    <option name="totallyTimeSpent" value="81042000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="23" width="1418" height="796" extended-state="0" />
+    <frame x="22" y="23" width="1418" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19840117" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20130815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -487,7 +512,7 @@
       <window_info anchor="right" id="Database" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19840117" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19840117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -496,8 +521,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.328125" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39772728" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39772728" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -613,13 +638,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/queue/TimerCircleQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/face/IntegerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -701,13 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="226" column="59" selection-start-line="226" selection-start-column="59" selection-end-line="226" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/DeadLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -719,20 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6783">
           <caret line="208" column="43" selection-start-line="208" selection-start-column="39" selection-end-line="208" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -874,22 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/redis_lock/RedisDistributedLockUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#4295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/redis_lock/RedisLockHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="19" selection-start-line="13" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/redis_lock/RedisIncyDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -918,27 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="1287" column="33" selection-start-line="1287" selection-start-column="27" selection-end-line="1287" selection-end-column="33" />
-          <folding>
-            <element signature="e#19296#19297#0" expanded="true" />
-            <element signature="e#19379#19380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kafka/KafkaProducerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -991,16 +951,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadPoolExecuteDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        <state relative-caret-position="225">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="1419" column="27" selection-start-line="1419" selection-start-column="12" selection-end-line="1419" selection-end-column="27" />
+        <state relative-caret-position="212">
+          <caret line="996" selection-start-line="996" selection-end-line="996" />
           <folding>
+            <element signature="e#16480#16481#0" expanded="true" />
+            <element signature="e#16508#16509#0" expanded="true" />
             <element signature="e#16568#16569#0" expanded="true" />
             <element signature="e#16597#16598#0" expanded="true" />
             <element signature="e#16644#16645#0" expanded="true" />
@@ -1009,13 +971,82 @@
             <element signature="e#16884#16885#0" expanded="true" />
             <element signature="e#17336#17337#0" expanded="true" />
             <element signature="e#17409#17410#0" expanded="true" />
-            <element signature="e#19002#19010#0" expanded="true" />
             <element signature="e#25063#25064#0" expanded="true" />
             <element signature="e#25102#25103#0" expanded="true" />
             <element signature="e#31948#31949#0" expanded="true" />
             <element signature="e#32004#32005#0" expanded="true" />
             <element signature="e#59415#59416#0" expanded="true" />
             <element signature="e#59451#59452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/redis_lock/RedisLockHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/redis_lock/RedisDistributedLockUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#4295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/PigInThePython.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="136" column="13" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
+          <folding>
+            <element signature="e#19296#19297#0" expanded="true" />
+            <element signature="e#19379#19380#0" expanded="true" />
+            <element signature="e#24298#24299#0" expanded="true" />
+            <element signature="e#24363#24364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kafka/KafkaProducerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
