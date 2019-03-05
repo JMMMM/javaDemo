@@ -3,6 +3,10 @@ package demo;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * OOM 这里没有重写equals方法，
+ * 会导致永远都不是同一个对象
+ */
 public class MemoryLeakDemo {
     static class Key {
         Integer id;
