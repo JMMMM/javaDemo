@@ -14,7 +14,7 @@ public class MemoryLeakDemo {
         public Key(Integer id) {
             this.id = id;
         }
-
+Object
         @Override
         public int hashCode() {
             return id.hashCode();
