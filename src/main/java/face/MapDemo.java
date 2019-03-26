@@ -10,6 +10,7 @@ public class MapDemo {
             Person p1 = new Person();
             temp.put(p1, p1.toString());
         }
+        System.out.println(temp);
     }
 }
 
