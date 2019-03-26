@@ -17,11 +17,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/SynchronizedDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="246">
+              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
               <folding>
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,7 +159,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553582203980" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553582860603" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -290,7 +290,7 @@
       <workItem from="1552372758580" duration="575000" />
       <workItem from="1552376436405" duration="8196000" />
       <workItem from="1553480585183" duration="4542000" />
-      <workItem from="1553505127514" duration="1248000" />
+      <workItem from="1553505127514" duration="1755000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1546408667559</created>
@@ -467,11 +467,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553505474295</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="123">
+      <created>1553582244535</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1553582244535</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99761000" />
+    <option name="totallyTimeSpent" value="100268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="198" y="23" width="1286" height="796" extended-state="0" />
@@ -486,8 +493,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.328125" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39772728" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39772728" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -510,7 +517,7 @@
       <window_info anchor="right" id="Database" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22588424" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22588424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -519,7 +526,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.328125" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39772728" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1097,11 +1104,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/SynchronizedDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="246">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding>
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
           </folding>
         </state>
       </provider>
