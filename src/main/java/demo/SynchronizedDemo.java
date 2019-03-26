@@ -16,7 +16,7 @@ public class SynchronizedDemo {
     }
 
     synchronized public void m2() {
-        System.out.println("m2");
+        while(true) System.out.println("m2");
     }
 
     public static void main(String[] args) throws InterruptedException {
