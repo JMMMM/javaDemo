@@ -1,13 +1,14 @@
 package demo;
 
-
+/**
+ *
+ */
 public class SynchronizedDemo {
-
-
     synchronized public void m1() {
         while (true) {
             try {
                 Thread.sleep(100);
+//                this.wait(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
