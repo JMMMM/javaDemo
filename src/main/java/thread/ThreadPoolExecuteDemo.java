@@ -10,7 +10,6 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class ThreadPoolExecuteDemo {
     public static void main(String[] args) throws InterruptedException {
-        new Thread().start();
         ThreadPoolExecutor threadPoolExecute = new ThreadPoolExecutor(2, 3, 30, TimeUnit.SECONDS, new ArrayBlockingQueue(1));
         threadPoolExecute.execute(() -> {
             while (true) {
