@@ -66,6 +66,11 @@
             <version>4.1.4</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.greenrobot</groupId>
+            <artifactId>eventbus</artifactId>
+            <version>3.1.1</version>
+        </dependency>
 
     </dependencies>
 
