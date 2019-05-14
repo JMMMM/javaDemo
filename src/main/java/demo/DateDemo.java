@@ -11,7 +11,7 @@ import java.util.Locale;
 
 public class DateDemo {
     public static void main(String[] args) {
-        Instant ins= new Date(System.currentTimeMillis()).toInstant();
         System.out.println(LocalDate.of(2018,11,1).compareTo(LocalDate.now()));
+        System.out.println(LocalDate.now().toString());
     }
 }
