@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a54c36f-88bc-46d1-8d1b-cec27258e1df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Demo7.java" afterDir="false" />
+    <list default="true" id="7a54c36f-88bc-46d1-8d1b-cec27258e1df" name="Default Changelist" comment="123">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo7.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,23 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demo/StaticTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            <state relative-caret-position="310">
+              <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
               <folding>
                 <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -193,14 +184,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -210,7 +193,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557906697915" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557911259616" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -360,7 +343,7 @@
       <workItem from="1557796928665" duration="8650000" />
       <workItem from="1557885887679" duration="172000" />
       <workItem from="1557886087199" duration="46000" />
-      <workItem from="1557886158520" duration="4927000" />
+      <workItem from="1557886158520" duration="7632000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1546408667559</created>
@@ -663,17 +646,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557886616839</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="123">
+      <created>1557906746793</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1557906746793</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181408000" />
+    <option name="totallyTimeSpent" value="184113000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="162" y="23" width="1434" height="796" extended-state="0" />
+    <frame x="17" y="23" width="1434" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18965517" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18965517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -683,7 +673,7 @@
       <window_info anchor="bottom" id="MyBatis Sql Log" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3650568" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3650568" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41051137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -692,7 +682,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3929078" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.38636363" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32881355" />
       <window_info anchor="bottom" id="Regex Tester" order="14" />
@@ -1284,11 +1274,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="310">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding>
             <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
           </folding>
         </state>
       </provider>

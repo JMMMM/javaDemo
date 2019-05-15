@@ -25,4 +25,5 @@ class Demo7Test {
         System.out.println("normal");
         System.out.println(a);
     }
+
 }
