@@ -12,6 +12,7 @@ import java.util.List;
  */
 public class Demo6 {
     public String convert(String s, int numRows) {
+        if(numRows<=1) return s;
         char[] chars = s.toCharArray();
         List<List<Character>> lists = new ArrayList<>();
         for (int i = 0; i < numRows; i++) {
@@ -21,8 +22,9 @@ public class Demo6 {
         int line = 0;
         int target = 0;
         boolean flag = true;
+        int listSize = lists.size();
         for (int i = 0; i < chars.length; i++) {
-            List<Character> characters = lists.get(line);
+            List<Character> characters = line>=listSize? null :lists.get(line);
             if (characters == null) {
                 characters = new ArrayList<>();
             }
