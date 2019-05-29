@@ -28,7 +28,7 @@ public class KafkaProducerDemo {
     public KafkaProducerDemo(String topic, Boolean isAsync) {
         Properties props = new Properties();
         try {
-            props.load(getClass().getResourceAsStream("producer.properties"));
+            props.load(getClass().getClassLoader().getResourceAsStream("producer.properties"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -56,9 +56,12 @@ public class KafkaProducerDemo {
 
     }
 
-    public static void main(String[] args) {
-        KafkaProducerDemo producerDemo = new KafkaProducerDemo("kafka_study_demo", false);
-        for (int i = 0; i < Integer.MAX_VALUE; i++)
-            producerDemo.send(1, "message_" + i);
+    public static void main(String[] args) throws InterruptedException {
+        KafkaProducerDemo producerDemo = new KafkaProducerDemo("study", false);
+        int i = 0;
+        while (true) {
+            producerDemo.send(1, "message_" + i++);
+            Thread.sleep(5000);
+        }
     }
 }
