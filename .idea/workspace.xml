@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a54c36f-88bc-46d1-8d1b-cec27258e1df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Demo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luttuce/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,29 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kafka/KafkaProducerDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/Demo8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,9 +25,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>transfer(</find>
-      <find>resize</find>
-      <find>remove</find>
       <find>ReentrantLock</find>
       <find>ThreadE</find>
       <find>pool</find>
@@ -76,6 +52,9 @@
       <find>172.16.2.217</find>
       <find>--&gt;</find>
       <find>kafka</find>
+      <find>ConnectionBuilder</find>
+      <find>connect(</find>
+      <find>ConnectionBuilder()</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -92,12 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/activeMQ/Comsumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jvm/PigInThePython.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demo/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demo/Demo3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demo/MemoryLeakDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demo/EqualsDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/ForEachDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/AdderDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/single_instance/Singleton7TestDemo.java" />
@@ -139,10 +112,16 @@
         <option value="$PROJECT_DIR$/src/main/resources/producer.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/kafka/KafkaProducerDemo.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/kafka/KafkaStreamDemo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/consumer.properties" />
         <option value="$PROJECT_DIR$/src/main/java/leetCode/Demo8.java" />
+        <option value="$PROJECT_DIR$/src/main/java/graphql/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/schema.graphqls" />
+        <option value="$PROJECT_DIR$/src/main/java/byteBuddy/MyTransformer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/byteBuddy/Myagent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/byteBuddy/InstrumentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/luttuce/Demo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -154,9 +133,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1454" />
-    <option name="y" value="23" />
-    <option name="width" value="1898" />
+    <option name="x" value="16" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1888" />
     <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -165,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -184,32 +164,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559114367676" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560912303318" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -232,13 +196,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo8">
-    <configuration name="Demo7 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.Demo7" />
+  <component name="RunManager" selected="Application.AdderDemo">
+    <configuration name="AdderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.AdderDemo" />
       <module name="javaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCode.*" />
+          <option name="PATTERN" value="thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,12 +223,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KafkaConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kafka.KafkaConsumerDemo" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphql.HelloWorld" />
       <module name="javaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kafka.*" />
+          <option name="PATTERN" value="graphql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,8 +236,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KafkaProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kafka.KafkaProducerDemo" />
+    <configuration name="KafkaConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kafka.KafkaConsumerDemo" />
       <module name="javaDemo" />
       <extension name="coverage">
         <pattern>
@@ -300,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdderDemo" />
+        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.Demo8" />
         <item itemvalue="Application.KafkaConsumerDemo" />
         <item itemvalue="Application.KafkaStreamDemo" />
-        <item itemvalue="Application.KafkaProducerDemo" />
-        <item itemvalue="Application.Demo7 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -366,14 +330,9 @@
       <workItem from="1557886087199" duration="46000" />
       <workItem from="1557886158520" duration="8607000" />
       <workItem from="1558748720786" duration="4923000" />
-      <workItem from="1559014397953" duration="20494000" />
-    </task>
-    <task id="LOCAL-00001" summary="123">
-      <created>1546408667559</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1546408667559</updated>
+      <workItem from="1559014397953" duration="21491000" />
+      <workItem from="1559270094715" duration="3914000" />
+      <workItem from="1559546619844" duration="5807000" />
     </task>
     <task id="LOCAL-00002" summary="123">
       <created>1547190648305</created>
@@ -704,26 +663,40 @@
       <option name="project" value="LOCAL" />
       <updated>1559101053188</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="123">
+      <created>1559114390798</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1559114390798</updated>
+    </task>
+    <task id="LOCAL-00050" summary="123">
+      <created>1559547666493</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1559547666493</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210505000" />
+    <option name="totallyTimeSpent" value="221223000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1454" y="23" width="1898" height="977" extended-state="0" />
-    <editor active="true" />
+    <frame x="16" y="-1057" width="1888" height="977" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14493534" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14897075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3638418" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37062147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35367233" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -734,10 +707,12 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.38636363" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32735425" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32632744" />
       <window_info anchor="bottom" id="Regex Tester" order="14" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.32954547" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="16" />
+      <window_info anchor="bottom" id="Java Enterprise" order="17" />
+      <window_info anchor="bottom" id="GraphQL" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -747,32 +722,36 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20876288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14655173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.364539" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.51914895" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.38636363" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32765958" />
-      <window_info anchor="bottom" id="Regex Tester" order="14" />
-      <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.32954547" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" order="16" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="GraphQL" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3638418" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.35367233" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.38636363" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32735425" />
+      <window_info anchor="bottom" id="Regex Tester" order="15" />
+      <window_info anchor="bottom" id="Thumbnails" order="16" weight="0.32954547" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="17" />
+      <window_info anchor="bottom" id="Java Enterprise" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -979,129 +958,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="733" column="16" selection-start-line="733" selection-start-column="16" selection-end-line="733" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="2348" column="27" selection-start-line="2348" selection-start-column="20" selection-end-line="2348" selection-end-column="27" />
-          <folding>
-            <element signature="e#22786#22787#0" expanded="true" />
-            <element signature="e#22821#22822#0" expanded="true" />
-            <element signature="e#62860#62861#0" expanded="true" />
-            <element signature="e#62916#62917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/eventbus/EventBus.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/LongAdder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/eventbus/Subscribe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/DateDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eventBus/GoogleEventBus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="88" column="3" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1920#1921#0" expanded="true" />
-            <element signature="e#1972#1973#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/SplitDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/eventbus/EventBus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="275" selection-start-line="275" selection-end-line="275" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/eventbus/AnnotatedSubscriberFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/eventbus/SubscriberFindingStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="39" column="56" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/Demo571.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.9.RELEASE/spring-jdbc-3.2.9.RELEASE.jar!/org/springframework/jdbc/datasource/lookup/AbstractRoutingDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/读写分离代码/DynamicDataSource.java" />
-    <entry file="file://$USER_HOME$/Desktop/读写分离代码/DynamicDataSourceTransactionManager.java" />
-    <entry file="file://$USER_HOME$/Desktop/读写分离代码/DynamicDataSourcePlugin.java" />
-    <entry file="file://$USER_HOME$/Desktop/读写分离代码/DynamicDataSourceHolder.java" />
     <entry file="file://$USER_HOME$/Desktop/读写分离代码/DynamicDataSourceGlobal.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/jvm/SubClass.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1169,26 +1025,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/byteBuddy/MakeObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="113" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kafka/KafkaConsumerHighDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kafka/KafkaConsumerHighDemo.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/2.2.0/kafka-streams-2.2.0.jar!/org/apache/kafka/streams/StreamsConfig.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1280,24 +1117,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-233">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1337,8 +1161,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kafka/KafkaProducerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        <state relative-caret-position="765">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1347,8 +1171,168 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/Demo8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="780">
           <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetCode/Demo9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/graphql-java/graphql-java/11.0/graphql-java-11.0.jar!/graphql/schema/idl/RuntimeWiring.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/graphql/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/graphql-java/graphql-java/11.0/graphql-java-11.0-sources.jar!/graphql/schema/idl/RuntimeWiring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#2069#2070#0" expanded="true" />
+            <element signature="e#2105#2106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.graphqls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lettuce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/luttuce/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.1.6.RELEASE/lettuce-core-5.1.6.RELEASE.jar!/io/lettuce/core/RedisClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/AdderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="114" column="49" lean-forward="true" selection-start-line="114" selection-start-column="49" selection-end-line="114" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/byteBuddy/MakeObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="113" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.1.6.RELEASE/lettuce-core-5.1.6.RELEASE-sources.jar!/io/lettuce/core/RedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="294" column="59" selection-start-line="294" selection-start-column="59" selection-end-line="294" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/hotels/beans/bean-utils-library/1.4.2/bean-utils-library-1.4.2.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/byteBuddy/Myagent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/byteBuddy/MyTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/byteBuddy/InstrumentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.1.6.RELEASE/lettuce-core-5.1.6.RELEASE-sources.jar!/io/lettuce/core/ConnectionBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+          <folding>
+            <element signature="e#2385#2386#0" expanded="true" />
+            <element signature="e#2431#2432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.1.6.RELEASE/lettuce-core-5.1.6.RELEASE-sources.jar!/io/lettuce/core/AbstractRedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="227" column="32" selection-start-line="227" selection-start-column="19" selection-end-line="227" selection-end-column="35" />
         </state>
       </provider>
     </entry>
