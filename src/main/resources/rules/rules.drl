@@ -1,0 +1,42 @@
+package rules;
+import com.droolstest.domain.Room;
+import com.droolstest.domain.Fire;
+import com.droolstest.domain.Sprinkler;
+import com.droolstest.domain.Alarm;
+
+rule "火灾发生时，打开洒水器"
+when
+    Fire($room : room)
+    $sprinkler : Sprinkler( room == $room, on == false )
+then
+    modify( $sprinkler ){ setOn(true) };
+    System.out.println("Turn on the sprinkler for room "+ $room.getName() );
+end
+
+rule "火灾结束时，关闭洒水器"
+when
+    $room : Room()
+    $sprinkler : Sprinkler( room == $room, on == true)
+    not Fire( room == $room )
+then
+    modify( $sprinkler) { setOn (false) };
+    System.out.println( "Turn off the sprinkler from room "+ $room.getName() );
+end
+
+rule "发生火灾时，打开报警器"
+when
+    exists Fire()
+then
+    insert( new Alarm() );
+    System.out.println( "Raise the alarm");
+end
+
+
+rule "一切正常"
+when
+    not Alarm()
+    not Sprinkler( on == true)
+then
+    System.out.println("Everything is ok");
+end
+
