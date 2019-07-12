@@ -42,8 +42,8 @@ public class NIOCopyFile {
                 try {
                     Method getCleanerMethod = buffer.getClass().getMethod("cleaner", new Class[0]);
                     getCleanerMethod.setAccessible(true);
-                    sun.misc.Cleaner cleaner = (sun.misc.Cleaner) getCleanerMethod.invoke(buffer, new Object[0]);
-                    cleaner.clean();
+//                    sun.misc.Cleaner cleaner = (sun.misc.Cleaner) getCleanerMethod.invoke(buffer, new Object[0]);
+//                    cleaner.clean();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
