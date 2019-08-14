@@ -43,7 +43,7 @@ public class KafkaConsumerDemo {
     }
 
     public static void main(String[] args) {
-        KafkaConsumerDemo demo = new KafkaConsumerDemo("consumer1", "wordcount_topic");
+        KafkaConsumerDemo demo = new KafkaConsumerDemo("consumer1", "study");
         new Thread(() -> demo.consumer()).start();
     }
 }

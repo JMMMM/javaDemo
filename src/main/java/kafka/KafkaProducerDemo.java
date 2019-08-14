@@ -57,7 +57,7 @@ public class KafkaProducerDemo {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        KafkaProducerDemo producerDemo = new KafkaProducerDemo("study", false);
+        KafkaProducerDemo producerDemo = new KafkaProducerDemo("study", true);
         int i = 0;
         while (true) {
             producerDemo.send(1, "message_" + i++);
