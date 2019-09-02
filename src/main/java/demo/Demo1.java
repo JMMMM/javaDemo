@@ -1,5 +1,9 @@
 package demo;
 
+import org.springframework.cglib.proxy.MethodInterceptor;
+import org.springframework.cglib.proxy.MethodProxy;
+
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -8,7 +12,7 @@ import java.util.Map;
 /**
  * 强引用的转换，这里是吧map从a引用，转移到list引用
  */
-public class Demo1 {
+public class Demo1 implements MethodInterceptor {
 
     public static void add(int temp) {
         temp++;
@@ -27,6 +31,11 @@ public class Demo1 {
         int xx = 1;
         add(xx);
         System.out.print(xx);
+    }
+
+    @Override
+    public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
+        return null;
     }
 }
 
