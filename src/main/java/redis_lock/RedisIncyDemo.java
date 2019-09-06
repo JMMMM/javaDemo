@@ -1,6 +1,5 @@
 package redis_lock;
 
-import org.redisson.api.RedissonClient;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
@@ -8,9 +7,8 @@ import redis.clients.jedis.JedisPoolConfig;
 public class RedisIncyDemo {
 
     public static void main(String[] args) throws InterruptedException {
-        RedissonClient
         JedisPoolConfig config = new JedisPoolConfig();
-        config.setMaxTotal(20);
+        config.setMaxTotal(20123);
         config.setMaxIdle(10);
         config.setMaxWaitMillis(1000);
         config.setTestOnBorrow(true);
