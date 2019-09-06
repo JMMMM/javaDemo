@@ -14,6 +14,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicLong;
+import java.util.regex.Pattern;
 
 /**
  * mongodb
@@ -58,6 +59,7 @@ public class StudyDemo {
     }
 
     public static void main(String[] args) throws InterruptedException {
+        //测试有索引的情况下查询速度，时间效率约为12毫秒，数据量2000万
         MongoCollection<Document> persons = mongoClient.getDatabase("study").getCollection("persons");
         DBObject condition = new BasicDBObject("$lte", 100);
         long startTime = System.currentTimeMillis();
@@ -70,5 +72,20 @@ public class StudyDemo {
             String formatter = String.format("id:%d,name:%s", doc.get("id"), doc.get("name"));
             System.out.println(formatter);
         }
+
+        //测试没有索引的查询，时间在20s以上，数据量为2000万
+        Pattern pattern = Pattern.compile("^3S$", Pattern.CASE_INSENSITIVE);
+        BasicDBObject query = new BasicDBObject();
+        query.put("name", pattern);
+        long startTime2 = System.currentTimeMillis();
+        MongoCursor<Document> seconds = persons.find(query).iterator();
+        long endTime2 = System.currentTimeMillis();
+        System.out.println("耗时：" + (endTime2 - startTime2) + "ms");
+        while (seconds.hasNext()) {
+            Document doc = seconds.next();
+            String formatter = String.format("id:%d,name:%s", doc.get("id"), doc.get("name"));
+            System.out.println(formatter);
+        }
     }
+
 }
