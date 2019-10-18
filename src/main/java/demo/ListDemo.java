@@ -3,7 +3,6 @@ package demo;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * filter和foreach同时进行时，filter和foreach交替执行，只有当filter为true时，才回去执行foreach

@@ -1,33 +1,20 @@
 package demo;
 
-import org.apache.http.HttpHost;
-import org.apache.http.HttpRequest;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.concurrent.FutureCallback;
-import org.apache.http.impl.nio.client.CloseableHttpAsyncClient;
-import org.apache.http.impl.nio.client.HttpAsyncClients;
+import com.google.common.collect.Lists;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
 
 public class AsyncDemo {
-    public static void main(String[] args) {
-
-        CloseableHttpAsyncClient httpclient = HttpAsyncClients.createDefault();
-        httpclient.start();
-        httpclient.execute(HttpHost.create("https://www.baidu.com"), new HttpGet(), new FutureCallback() {
-            @Override
-            public void completed(Object o) {
-                System.out.println(o);
-            }
-
-            @Override
-            public void failed(Exception e) {
-                System.out.println(e);
-
-            }
-
-            @Override
-            public void cancelled() {
-
-            }
-        });
+    public static void main(String[] args) throws ParseException {
+        List<Integer> result = Lists.newArrayList(1,2,3,4);
+        System.out.println(result);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Date date = sdf.parse("2019-10-09 00:00:00");
+        Date date2 = sdf.parse("2019-10-09 23:59:59");
+        System.out.println(date.getTime());
+        System.out.println(date2.getTime());
     }
 }
