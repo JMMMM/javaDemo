@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d93e2eef-e28f-4104-81c6-7778b6beebb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/knowWastage.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/knowWastage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/purchase.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/purchase.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/sales.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sales.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/unknow.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/unknow.json" afterDir="false" />
@@ -25,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
+            <state relative-caret-position="366">
+              <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,31 +38,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/unknow.json">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/sales.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="13514" lean-forward="true" selection-start-column="13514" selection-end-column="13514" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demo/DruidDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="5" selection-start-line="10" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret column="85573" lean-forward="true" selection-start-column="85573" selection-end-column="85573" />
             </state>
           </provider>
         </entry>
@@ -83,6 +65,7 @@
       <find>Index</find>
       <find>datasource</find>
       <find>\</find>
+      <find>totalPspAmt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,15 +90,16 @@
         <option value="$PROJECT_DIR$/src/main/java/demo/InitSettlementData.java" />
         <option value="$PROJECT_DIR$/src/main/resources/a.json" />
         <option value="$PROJECT_DIR$/src/main/resources/b" />
-        <option value="$PROJECT_DIR$/src/main/java/demo/Demo9.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/knowWastage.json" />
         <option value="$PROJECT_DIR$/src/main/java/demo/ReceivSkuDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo/aA.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/demo/Demo1.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/sales.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/purchase.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/know.json" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/Demo9.java" />
         <option value="$PROJECT_DIR$/src/main/resources/unknow.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/purchase.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/knowWastage.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/sales.json" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/Demo1.java" />
       </list>
     </option>
   </component>
@@ -132,11 +116,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-64" />
-    <option name="y" value="-998" />
-    <option name="width" value="1440" />
-    <option name="height" value="797" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-72" />
+    <option name="y" value="-1027" />
+    <option name="width" value="1621" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -171,21 +155,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -195,7 +164,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574659973763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574844275102" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -341,7 +310,7 @@
       <workItem from="1574320734227" duration="791000" />
       <workItem from="1574323547209" duration="1974000" />
       <workItem from="1574391695254" duration="6928000" />
-      <workItem from="1574643246399" duration="2799000" />
+      <workItem from="1574643246399" duration="8517000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1567404272140</created>
@@ -392,17 +361,24 @@
       <option name="project" value="LOCAL" />
       <updated>1574643307787</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="123">
+      <created>1574660072251</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574660072251</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44111000" />
+    <option name="totallyTimeSpent" value="49829000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="-72" y="-1027" width="1621" height="1024" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18454936" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16339456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -412,8 +388,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40709218" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5092199" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40665236" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38519314" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -441,7 +417,7 @@
       <window_info anchor="right" id="SciView" order="11" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20206022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16339456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -450,9 +426,9 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40851063" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4609929" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40665236" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38519314" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -465,7 +441,7 @@
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Regex Tester" order="15" weight="0.32907802" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32765958" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -566,15 +542,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/redis_lock/RedisDistributedLockUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#4295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.8.1/redisson-3.8.1-sources.jar!/org/redisson/api/RedissonClient.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.8.1/redisson-3.8.1-sources.jar!/org/redisson/Redisson.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.8.1/redisson-3.8.1-sources.jar!/org/redisson/connection/ConnectionManager.java" />
@@ -755,27 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/b" />
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/OrderItemSettleSkuCodeDto.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -805,20 +751,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/knowWastage.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="320" selection-start-column="320" selection-end-column="320" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -878,31 +810,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sales.json">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/know.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        <state relative-caret-position="315">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/purchase.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/unknow.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="13514" lean-forward="true" selection-start-column="13514" selection-end-column="13514" />
+          <caret column="12681" lean-forward="true" selection-start-column="12681" selection-end-column="12681" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/purchase.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="55" lean-forward="true" selection-start-column="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/knowWastage.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1331" lean-forward="true" selection-start-column="1331" selection-end-column="1331" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sales.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="85573" lean-forward="true" selection-start-column="85573" selection-end-column="85573" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/Demo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="366">
+          <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -83,7 +83,7 @@ public class Demo1 {
             categoryName.put(id, name);
         }
         List<List<String>> models = new ArrayList<>();
-        models.add(Lists.newArrayList("sku", "sku名", "分类1", "分类2", "分类3", "验收数量", "验收金额", "销售数量", "已知损耗数量", "已知损耗额", "未知损耗"));
+        models.add(Lists.newArrayList("sku", "sku名", "分类1", "分类2", "分类3", "验收数量", "验收金额", "销售数量", "销售金额", "已知损耗数量", "已知损耗额", "未知损耗"));
         for (String skucode : skucodes) {
             List<String> model = new ArrayList<>();
             model.add(skucode);
@@ -98,6 +98,7 @@ public class Demo1 {
             model.add(receiveInfo.map(com.zhuizhi.sc.center.dto.receive.ReceiveSkuDto::getReceivePrice).orElse(BigDecimal.ZERO).toPlainString());
             Optional<com.zhuizhi.order.search.center.dto.OrderItemSettleSkuCodeDto> salesInfo = Optional.ofNullable(销售数量.get(skucode));
             model.add(salesInfo.map(com.zhuizhi.order.search.center.dto.OrderItemSettleSkuCodeDto::getTotalWeight).orElse(BigDecimal.ZERO).toPlainString());
+            model.add(salesInfo.map(com.zhuizhi.order.search.center.dto.OrderItemSettleSkuCodeDto::getTotalPspAmt).orElse(BigDecimal.ZERO).toPlainString());
             Optional<Pair<BigDecimal, BigDecimal>> knowInfo = Optional.ofNullable(已知损耗.get(skucode));
             model.add(knowInfo.map(Pair::getKey).orElse(BigDecimal.ZERO).toPlainString());
             model.add(knowInfo.map(Pair::getValue).orElse(BigDecimal.ZERO).toPlainString());
@@ -123,6 +124,7 @@ public class Demo1 {
         return knowJson;
     }
 
+
     private Map<String, com.zhuizhi.sc.center.dto.receive.ReceiveSkuDto> purchaseJson() throws IOException {
         InputStream is = this.getClass().getClassLoader().getResourceAsStream("purchase.json");
         InputStreamReader isr = new InputStreamReader(is);
@@ -141,10 +143,10 @@ public class Demo1 {
         BufferedReader br = new BufferedReader(isr);
         String result = br.readLine();
         br.close();
-        List<com.zhuizhi.order.search.center.dto.OrderItemSettleSkuCodeDto> purchase = new Gson().fromJson(result, new TypeToken<List<com.zhuizhi.order.search.center.dto.OrderItemSettleSkuCodeDto>>() {
+        List<com.zhuizhi.order.search.center.dto.OrderItemSettleSkuCodeDto> sales = new Gson().fromJson(result, new TypeToken<List<com.zhuizhi.order.search.center.dto.OrderItemSettleSkuCodeDto>>() {
         }.getType());
         br.close();
-        return purchase;
+        return sales;
     }
 
     private Map<String, Pair<BigDecimal, BigDecimal>> unknownJson() throws IOException {
