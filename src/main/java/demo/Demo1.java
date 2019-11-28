@@ -9,6 +9,7 @@ import com.google.common.collect.Maps;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
 import javafx.util.Pair;
+import org.springframework.util.CollectionUtils;
 
 import javax.sql.DataSource;
 import java.io.BufferedReader;
@@ -121,6 +122,9 @@ public class Demo1 {
         br.close();
         Map<String, Pair<BigDecimal, BigDecimal>> knowJson = new Gson().fromJson(result, new TypeToken<Map<String, Pair<BigDecimal, BigDecimal>>>() {
         }.getType());
+        if(CollectionUtils.isEmpty(knowJson)){
+            knowJson = Maps.newHashMap();
+        }
         return knowJson;
     }
 
