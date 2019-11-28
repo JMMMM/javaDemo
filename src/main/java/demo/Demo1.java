@@ -36,8 +36,8 @@ import java.util.stream.Collectors;
 public class Demo1 {
     private DataSource createDataSource() {
         DruidDataSource dataSource = new DruidDataSource();
-        dataSource.setUsername("zhuizhi");
-        dataSource.setPassword("guGMmWVKkJ");
+        dataSource.setUsername("xxxxxxxxxxxxxxx");
+        dataSource.setPassword("xxxxxxx");
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://10.111.105.14:3306/product_db");
         return dataSource;
