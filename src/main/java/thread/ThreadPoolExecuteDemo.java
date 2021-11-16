@@ -1,6 +1,7 @@
 package thread;
 
 import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.Future;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
@@ -11,6 +12,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class ThreadPoolExecuteDemo {
     public static void main(String[] args) throws InterruptedException {
         ThreadPoolExecutor threadPoolExecute = new ThreadPoolExecutor(2, 3, 30, TimeUnit.SECONDS, new ArrayBlockingQueue(1));
+        Future a = threadPoolExecute.submit(()->{});
         threadPoolExecute.execute(() -> {
             while (true) {
                 System.out.println("hello");
